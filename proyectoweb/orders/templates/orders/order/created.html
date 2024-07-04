@@ -8,4 +8,8 @@
   <h1>Muchas Gracias</h1>
   <p>Tu orden ha sido completada con exito. El numero de tu orden es:
   <strong>{{ order.id }}</strong>.</p>
+  <p class="text-left">
+    <br>
+    <a href="{% url "tienda:product_list" %}">Volver al inicio</a>
+  </p>
 {% endblock %}
