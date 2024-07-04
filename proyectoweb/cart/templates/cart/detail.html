@@ -57,6 +57,7 @@
   <p class="text-right">
     <a href="{% url "tienda:product_list" %}" class="button
     light">Continuar Comprando</a>
-    <a href="#" class="button">Ir a pagar</a>
+    <a href="{% url "orders:order_create" %}" class="button">
+      Ir a pagar</a>
   </p>
 {% endblock %}
