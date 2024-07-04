@@ -28,7 +28,16 @@ En la carpeta del proyecto usando PowerShell usar el siguiente comando:
 pip install -r requirements.txt
 ```
 
-### 4. Correr las migraciones
+### 4. Ir a la carpeta del proyecto
+
+En la carpeta del proyecto usando PowerShell usar el siguiente comando:
+
+```bash
+cd proyectoweb
+```
+
+
+### 5. Correr las migraciones
 
 En la carpeta del proyecto usando PowerShell usar el siguiente comando:
 
@@ -39,7 +48,7 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-## 5. Crear usuario ADMIN para acceder a la interfaz de admin de Django
+## 6. Crear usuario ADMIN para acceder a la interfaz de admin de Django
 
 En la carpeta del proyecto usando PowerShell usar el siguiente comando:
 
