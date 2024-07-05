@@ -55,6 +55,8 @@ En la carpeta del proyecto usando PowerShell usar el siguiente comando:
 ```bash
 python manage.py createsuperuser
 ```
+### Nombre de usuario: admin
+### Password: 1234
 
 ## 7. Reemplazar el archivo db.sqlite3 por el archivo que viene el zip
 
@@ -77,6 +79,6 @@ Escribir en el navegador http://127.0.0.1:8000/ para ver la aplicacion.
 
 Para agregar datos usando el admin de Django.
 
-Escribir en el navegador http://127.0.0.1:8000/admin Usando las credenciales creadas en la seccion 5.
+Escribir en el navegador http://127.0.0.1:8000/admin Usando las credenciales creadas en la seccion 6.
 
 Copyright © 2024 Diana Guerrero y Juan Pablo Valdebenito. Programacion Web DUOC UC.
