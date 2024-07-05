@@ -56,6 +56,11 @@ En la carpeta del proyecto usando PowerShell usar el siguiente comando:
 python manage.py createsuperuser
 ```
 
+## 7. Reemplazar el archivo db.sqlite3 por el archivo que viene el zip
+
+En la carpeta del proyecto descomprimir el archivo zip y reemplazarlo
+por el que se crea en el Paso 5
+
 ### Arrancar el Servidor
 
 En la carpeta del proyecto usando PowerShell usar el siguiente comando:
